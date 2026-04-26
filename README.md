@@ -6,13 +6,14 @@ A Chennai-inspired restaurant landing page built with vanilla HTML, CSS, and Jav
 
 ## 🌐 Live Demo
 
-> Deploy via GitHub Pages and paste your link here.
+🔗 [madras-bites-display](https://jbmsacps-stack.github.io/madras-bites-display/madras%20bites/madrasbites.html)
 
 ---
 
 ## 📸 Preview
 
-> Add a screenshot of your site here.
+![Screenshot 1](screenshots/screenshot1.png)
+![Screenshot 2](screenshots/screenshot2.png)
 
 ---
 
@@ -31,9 +32,12 @@ A Chennai-inspired restaurant landing page built with vanilla HTML, CSS, and Jav
 
 ```
 madras-bites/
-├── index.html       # Page structure and content
-├── style.css        # Styling, layout, animations, media queries
-└── script.js        # Hide-on-scroll navbar logic
+├── index.html         # Page structure and content
+├── style.css          # Styling, layout, animations, media queries
+├── script.js          # Hide-on-scroll navbar logic
+└── screenshots/
+    ├── screenshot1.png
+    └── screenshot2.png
 ```
 
 ---
@@ -54,7 +58,7 @@ madras-bites/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/madras-bites.git
+   git clone https://github.com/jbmsacps-stack/madras-bites.git
    ```
 
 2. **Open in browser**
@@ -94,7 +98,7 @@ Food images used in this project are sourced from Pinterest and remain the prope
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the [MIT License](https://opensource.org/license/mit).
 
 ---
 
