@@ -6,7 +6,7 @@ A Chennai-inspired restaurant landing page built with vanilla HTML, CSS, and Jav
 
 ## 🌐 Live Demo
 
-🔗 [madras-bites-display](https://jbmsacps-stack.github.io/madras-bites-display/madras%20bites/madrasbites.html)
+🔗 [madras-bites.com](https://jbmsacps-stack.github.io/madras-bites-display/madras%20bites/madrasbites.html)
 
 ---
 
