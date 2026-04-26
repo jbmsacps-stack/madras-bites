@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f9dc5c;
+  color: #011936;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #F9DC5C;
+  padding: 10px 40px;
+  z-index: 100;
+  transition: transform 0.3s ease;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  display: inline-block;
+  font-family: "Kavivanar", cursive;
+  font-weight: 400;
+  font-size: 40px;
+  width: 320px;
+  text-align: center;
+  color: #011936;
+  transition: 0.3s ease;
+}
+
+h1:hover {
+  transform: scale(1.025);
+}
+
+span {
+  scale: 1.5;
+  margin: 15px;
+}
+
+nav ul {
+  display: flex;
+  margin-left: auto;
+  list-style: none;
+  gap: 70px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #011936;
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+  transition: 0.3s ease;
+}
+
+nav a:hover {
+  color: #f28123;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0;
+  height: 3px;
+  background-color: #f28123;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+section {
+  padding: 70px 50px;
+  scroll-margin-top: 90px;
+}
+
+#home {
+  background-color: #fefbeb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  min-height: 90vh;
+}
+
+#home article {
+  max-width: 600px;
+}
+
+#jb1 {
+  font-family: "Lavishly Yours", cursive;
+  font-size: 58px;
+  color: #F5D93D;
+  text-shadow: 2px 2px 5px #f5d93d8b;
+  margin-bottom: 8px;
+}
+
+#jb2 {
+  font-family: "Kavivanar", cursive;
+  font-size: 20px;
+  line-height: 1.7;
+  color: #f28123;
+  text-shadow: 2px 2px 5px #f2802377;
+}
+
+#jb3 {
+  font-family: "Alfa Slab One", serif;
+  font-size: 44px;
+  line-height: 1.2;
+  color: #ff5926;
+  text-shadow: 2px 2px 5px #d34d2457;
+  margin-bottom: 18px;
+}
+
+#home a {
+  display: inline-block;
+  margin-top: 22px;
+  padding: 13px 24px;
+  background-color: #f28123;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 30px;
+  font-family: "Kavivanar", cursive;
+  box-shadow: 0 8px 20px rgba(242, 129, 35, 0.35);
+  transition: 0.25s ease;
+}
+
+#home a:hover {
+  transform: scale(1.05);
+  background-color: #ff5926;
+}
+
+main figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding-top:20px;
+}
+
+#home figure img {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 35px;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.22);
+}
+
+figcaption {
+  font-family: "Kavivanar", cursive;
+  color: #71421c;
+  font-size: 15px;
+}
+
+#menu {
+  background-color: #faec9e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#menu > h2,
+#about h2,
+#contact h2 {
+  font-family: "Alfa Slab One", serif;
+  font-size: 38px;
+  color: #011936;
+  margin-bottom: 35px;
+  letter-spacing: 2px;
+}
+
+.dish-list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.dish-card {
+  background-color: #fff8d6;
+  width: 300px;
+  padding: 22px;
+  border-radius: 28px;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.15);
+  transition: 0.3s ease;
+}
+
+.dish-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 22px 45px rgba(0, 0, 0, 0.22);
+}
+
+.dish-card img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 22px;
+}
+
+.dish-card h3 {
+  font-family: "Kavivanar", cursive;
+  font-size: 25px;
+  margin-top: 15px;
+  color: #011936;
+}
+
+.dish-card p {
+  font-size: 22px;
+  font-weight: 800;
+  color: #f28123;
+  margin: 10px 0;
+}
+
+.dish-card button {
+  border: none;
+  padding: 11px 22px;
+  border-radius: 25px;
+  background-color: #f28123;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.dish-card button:hover {
+  background-color: #ff5926;
+  transform: scale(1.05);
+}
+
+#about {
+  background-color: #ffcc80;
+  text-align: center;
+}
+
+#about p {
+  max-width: 750px;
+  margin: auto;
+  font-family: "Kavivanar", cursive;
+  font-size: 22px;
+  line-height: 1.8;
+  color: #3a220e;
+}
+
+#contact {
+  background-color: #022550;
+  color: whitesmoke;
+  text-align: center;
+}
+
+#contact h2 {
+  color: #f9dc5c;
+}
+
+address {
+  font-style: normal;
+  font-size: 20px;
+  line-height: 2;
+  font-family: "Kavivanar", cursive;
+}
+
+footer {
+  background-color: #011936;
+  padding: 20px;
+  text-align: center;
+  color: whitesmoke;
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  nav {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  nav ul {
+    margin-left: 0;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #home {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #home figure img {
+    width: 100%;
+    max-width: 360px;
+    height: 420px;
+  }
+
+  #jb3 {
+    font-size: 32px;
+  }
+}
+
