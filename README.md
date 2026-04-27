@@ -12,7 +12,7 @@ A Chennai-inspired restaurant landing page built with vanilla HTML, CSS, and Jav
 
 ## 📸 Preview
 
-![Screenshot 1](screenshots/screenshot1new.png)
+![Screenshot 1](screenshots/screenshot1.png)
 ![Screenshot 2](screenshots/screenshot2.png)
 
 ---
