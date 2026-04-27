@@ -104,10 +104,12 @@ section {
 }
 
 #jb1 {
-  font-family: "Kavivanar", cursive;
-  font-size: 58px;
-  color: #F5D93D;
-  text-shadow: 2px 2px 5px #f5d93d8b;
+  font-family: "Playwrite NO", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 38px;
+  color: #f9dc5c;
+  text-shadow: 2px 2px 5px #f9dc5c34;
   margin-bottom: 8px;
 }
 
