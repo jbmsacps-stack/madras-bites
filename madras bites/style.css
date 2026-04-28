@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+@media (max-width:891px){
+  #home article{
+    padding:140px 0px;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -314,4 +320,3 @@ footer {
     font-size: 32px;
   }
 }
-
